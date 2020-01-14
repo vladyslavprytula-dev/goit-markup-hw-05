@@ -1,0 +1,225 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  margin: 0px;
+  display: block;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.logo-link {
+  text-decoration: none;
+  display: inline-block;
+}
+.logo {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #555252;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.logo::first-letter {
+  width: 190px;
+  height: 42px;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 32px;
+  color: #1abc9c;
+  font-weight: 900;
+}
+.page-nav {
+  display: flex;
+  padding-top: 36px;
+  padding-bottom: 105px;
+}
+.site-nav {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  text-decoration: none;
+}
+.link {
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 11px;
+  color: #0f0101;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  text-align: right;
+}
+.link:hover,
+.link:focus {
+  color: #1abc9c;
+}
+.first-title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 40px;
+  color: #515151;
+  font-family: 'Roboto';
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 130px;
+}
+.section-product {
+  margin-bottom: 105px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.product-item:nth-child(4n) {
+  margin-right: 0px;
+}
+.product-item:nth-last-child(-n + 4) {
+  margin-bottom: 0px;
+}
+.product-name {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 900;
+  margin: 0;
+  height: 40px;
+  width: 200px;
+  flex-basis: auto;
+  background-color: #323232;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 13px;
+}
+.price {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  flex-basis: auto;
+  height: 40px;
+  width: 55px;
+  background: #8c8c8c;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.product-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 255px;
+}
+.product-link:hover .product-name,
+.product-link:hover .product-name {
+  background: #1abc9c;
+}
+.product-link:hover .price,
+.product-link:hover .price {
+  background: #7fd9c7;
+}
+.section-article {
+  margin-bottom: 46px;
+}
+.second-title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 40px;
+  color: #555252;
+  font-family: 'Roboto';
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 120px;
+}
+.news-list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.article {
+  width: 350px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.article:nth-child(3n) {
+  margin-right: 0px;
+}
+.headline-news {
+  width: 325px;
+  height: 54px;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 33px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+.text {
+  width: 350px;
+  height: 78px;
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #555252;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 159px;
+  height: 51px;
+  border-radius: 3px;
+  filter: drop-shadow(1px 1.732px 2.5px rgba(0, 0, 0, 0.39));
+  background-color: #4ec6ab;
+  text-align: center;
+}
+.button-text {
+  display: inline-block;
+  width: 81px;
+  height: 26px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
